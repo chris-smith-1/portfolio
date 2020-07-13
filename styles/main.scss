@@ -1,0 +1,52 @@
+$font-primary: "Roboto";
+
+body {
+    background-color: #f2f2f2;
+}
+
+.main {
+    width: 80%;
+    margin: 0px auto 0px auto;
+    background-color: white;
+    padding-top: 25px;
+    height: 100%;
+}
+
+.header {
+    text-align: center;
+    margin: 0;
+}
+
+.profile-img {
+    width: 40%;
+    border-radius: 2%;
+    display: block;
+    margin: 30px auto 0px auto;
+}
+
+.social__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fab {
+        
+    }
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: 10px auto 10px auto;
+
+    &__item {
+        margin: 10px 15px 0 10px;
+    }
+
+    &__title {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
