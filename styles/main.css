@@ -83,4 +83,32 @@ body {
   margin-top: 40px;
   font-family: "Tahoma", sans-serif;
 }
+
+.skills-contact__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 60%;
+  margin: 0 auto 0 auto;
+  padding-bottom: 100px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  grid-column-gap: 10px;
+}
+
+.skills ul li {
+  line-height: 20px;
+}
 /*# sourceMappingURL=main.css.map */

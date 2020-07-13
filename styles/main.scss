@@ -75,3 +75,26 @@ body {
         font-family: $font-primary;
     }
 }
+
+.skills-contact__container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.skills {
+    ul {
+        list-style-type: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 10px;
+
+        li {
+            line-height: 20px;
+        }
+    }
+}
