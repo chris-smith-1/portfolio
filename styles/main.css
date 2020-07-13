@@ -13,6 +13,14 @@ body {
 .header {
   text-align: center;
   margin: 0;
+  font-family: "Tahoma", sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.email {
+  text-align: center;
+  margin-top: 5px;
+  font-family: "Tahoma", sans-serif;
 }
 
 .profile-img {
@@ -34,6 +42,19 @@ body {
           align-items: center;
 }
 
+.social__container .fab:before {
+  font-size: 40px;
+  margin: 0 20px 0 20px;
+}
+
+.social__container .fab:hover {
+  color: #595959;
+}
+
+.social__link {
+  color: black;
+}
+
 .gallery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,8 +72,15 @@ body {
   margin: 10px 15px 0 10px;
 }
 
+.gallery__item--heading {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Tahoma", sans-serif;
+}
+
 .gallery__title {
   text-align: center;
   margin-top: 40px;
+  font-family: "Tahoma", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */
